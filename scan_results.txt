@@ -1,0 +1,15 @@
+# Nmap 7.98 scan initiated Thu Nov 13 16:15:13 2025 as: nmap -sS -oN C:\\Users\\Documents\\scan_results.txt 192.168.XX.XX/240
+Illegal netmask in "192.168.XX.XX/240". Assuming /32 (one host)
+Nmap scan report for it-lap01.afdil.com (192.168.XX.XX)
+Host is up (0.000052s latency).
+Not shown: 993 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+902/tcp  open  iss-realsecure
+912/tcp  open  apex-mesh
+3389/tcp open  ms-wbt-server
+7070/tcp open  realserver
+
+# Nmap done at Thu Nov 13 16:15:13 2025 -- 1 IP address (1 host up) scanned in 0.44 seconds
